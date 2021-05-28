@@ -1,0 +1,132 @@
+body {
+  background-color: black;
+}
+
+nav {
+  border: solid green 4px;
+  color: green;
+}
+
+#cannabishistoria {
+  display: flex;
+  justify-content: right;
+}
+
+li {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Architects Daughter", serif;
+}
+
+h1 {
+  font-family: "Architects Daughter", serif;
+  padding: 10px;
+  text-align: center;
+  color: green;
+}
+
+h2 {
+  color: green;
+  text-align: center;
+  border-top: solid green 4px;
+  border-bottom: solid green 4px;
+  border-left: solid green 4px;
+  border-right: solid green 4px;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+}
+
+.article-container {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+}
+
+p {
+  font-family: "News Cycle", serif;
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 10px;
+  max-width: 500px;
+  color: white;
+}
+
+h3 {
+  font-family: "News Cycle", serif;
+  font-weight: 100;
+  font-size: small;
+  padding: 10px;
+  color: white;
+}
+
+h4 {
+  font-family: "News Cycle", serif;
+  font-weight: 100;
+  font-size: small;
+  padding: 10px;
+  text-align: right;
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: left;
+  color: green;
+}
+
+.instagram {
+  color: white;
+  text-align: center;
+}
+
+.instagram:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+td {
+  display: flex;
+  justify-content: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+footer #copyright {
+  display: flex;
+  justify-content: left;
+}
+
+.large-picture {
+  width: 50%;
+}
+
+#collage {
+  display: flex;
+  justify-content: center;
+}
+
+.text1 {
+  margin: 0%;
+}
+
+.kontaktlista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.beside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
